@@ -1,0 +1,11 @@
+(module Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical (layer F.Cu) (tedit 5D14C277)
+  (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+  (tags "Through hole pin header THT 1x01 2.54mm single row")
+  (fp_text reference J14 (at 0 -2.33) (layer F.SilkS) hide
+    (effects (font (size 0.8 0.6) (thickness 0.11)))
+  )
+  (fp_text value Conn_01x01_Male (at 0 1.27) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole circle (at 0 0) (size 1.2 1.2) (drill 0.6) (layers *.Cu *.Mask))
+)
